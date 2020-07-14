@@ -1,4 +1,4 @@
-# 6 thứ nên biết khi thiết kế mongoDB schema: phần 1
+# 6 quy tắc nên biết khi thiết kế mongoDB schema: phần 1
 
 
 
