@@ -20,19 +20,17 @@ Nhân dịp React native ra mắt bản cập nhật 0.63.0, mình viết bài n
 
 
 
-## /app.json
-
+**/app.json**
 ``` json
 {
   "name": "APPLICATION_NAME",
   "displayName": "APPLICATION_DISPLAY_NAME"
 }
-
 ```
+
 <br>
 
-## /package.json
-
+**/package.json**
 ``` json
 {
   "name": "APPLICATION_NAME",
@@ -53,7 +51,7 @@ Nhân dịp React native ra mắt bản cập nhật 0.63.0, mình viết bài n
 ```
  <br>
 
-## /android/settings.gradle
+**/android/settings.gradle**
 
 ``` json
 rootProject.name = 'HUBTHub'
@@ -62,7 +60,7 @@ include ':app'
 ```
 <br>
 
-## /android/app/_BUCK
+**/android/app/_BUCK**
 
 ``` json
 android_build_config(
@@ -78,7 +76,7 @@ android_resource(
 ```
 <br>
 
-## /android/app/build.gradle
+**/android/app/build.gradle**
 
 ``` json
 
@@ -102,7 +100,7 @@ android {
 <br>
 
 
-## /android/app/src/main/AndroidManifest.xml
+**/android/app/src/main/AndroidManifest.xml**
 ``` xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="ANDROID_PACKAGE_NAME">
@@ -110,7 +108,7 @@ android {
 <br>
 
 
-## /android/app/src/main/java/MainActivity.java
+**/android/app/src/main/java/MainActivity.java**
 ``` java
 package ANDROID_PACKAGE_NAME;
 
@@ -132,7 +130,7 @@ public class MainActivity extends ReactActivity {
 
 
 
-## /android/app/src/main/java/MainApplication.java
+**/android/app/src/main/java/MainApplication.java**
 ``` java
 package ANDROID_PACKAGE_NAME;
 
@@ -168,7 +166,7 @@ import android.content.Context;
 
 <br>
 
-## /android/app/src/main/res/values/strings.xml
+**/android/app/src/main/res/values/strings.xml**
 ``` xml
 <resources>
     <string name="app_name">APPLICATION_DISPLAY_NAME</string>
@@ -177,7 +175,7 @@ import android.content.Context;
 
 
 
-## /android/app/src/debug/java/com/APPLICATION_NAME/ReactNativeFlipper.java
+**/android/app/src/debug/java/com/APPLICATION_NAME/ReactNativeFlipper.java**
 ``` java
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
